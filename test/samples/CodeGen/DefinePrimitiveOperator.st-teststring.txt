@@ -1,9 +1,0 @@
-name: String
-superClass: 
-fields: 
-literals: 
-methods:
-    name: ,
-    qualifiedName: String>>,
-    nargs: 1
-    nlocals: 0
