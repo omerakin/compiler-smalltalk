@@ -2,6 +2,7 @@ package smalltalk.compiler;
 
 import org.antlr.symtab.Scope;
 import org.antlr.symtab.VariableSymbol;
+import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -32,13 +33,21 @@ public class Compiler {
 
 	public Compiler() {
 		symtab = new STSymbolTable();
+		//fileName = "unknown";
 	}
 
 	public Compiler(STSymbolTable symtab) {
 		this.symtab = symtab;
+		//fileName = "<string>";
 	}
 
 	public STSymbolTable compile(String fileName, String input) {
+
+		ParserRuleContext tree = parseClasses(new ANTLRInputStream(input));
+		defSymbols(tree);
+		resolveSymbols(tree);
+
+
 		return symtab;
 	}
 
@@ -74,12 +83,12 @@ public class Compiler {
 
 	public STBlock createBlock(STMethod currentMethod, ParserRuleContext tree) {
 //		System.out.println("create block in "+currentMethod+" "+args);
-		return null;
+		return new STBlock(currentMethod, tree);
 	}
 
 	public STMethod createMethod(String selector, ParserRuleContext tree) {
 //		System.out.println("	create method "+selector+" "+args);
-		return null;
+		return new STMethod(selector, tree);
 	}
 
 	public STPrimitiveMethod createPrimitiveMethod(STClass currentClass,
@@ -94,15 +103,29 @@ public class Compiler {
 	}
 
 	public void defineVariables(Scope scope, List<String> names, Function<String,? extends VariableSymbol> getter) {
+		if ( names!=null ) {
+			for (String name : names) {
+				VariableSymbol v = getter.apply(name);
+				if ( scope.getSymbol(v.getName())!=null ) {
+					error("redefinition of "+v.getName()+" in "+scope.toQualifierString(">>"));
+				}
+				else {
+					scope.define(v);
+				}
+			}
+		}
 	}
 
 	public void defineFields(Scope scope, List<String> names) {
+		defineVariables(scope, names, n -> new STField(n));
 	}
 
 	public void defineArguments(Scope scope, List<String> names) {
+		defineVariables(scope, names, n -> new STArg(n));
 	}
 
 	public void defineLocals(Scope scope, List<String> names) {
+		defineVariables(scope, names, n -> new STVariable(n));
 	}
 
 	// Convenience methods for code gen

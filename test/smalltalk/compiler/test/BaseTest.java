@@ -59,7 +59,8 @@ public class BaseTest {
 		List<Object[]> tests = new ArrayList<>();
 		ClassLoader cl = Thread.currentThread().getContextClassLoader();
 		URL codegenURL = cl.getResource(subdir);
-		File dir = new File(codegenURL.getFile());
+		//File dir = new File(codegenURL.getFile());
+		File dir = new File("/Users/omerakin/git/CS 652/smalltalk-compiler-omerakinusf/target/classes/CodeGen");
 		for (String f : dir.list()) {
 			if ( f.endsWith(".st") ) {
 				Object[] args = new Object[3];
