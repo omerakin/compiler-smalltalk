@@ -7,6 +7,7 @@ import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
+import smalltalk.compiler.misc.Utils;
 import smalltalk.compiler.symbols.STArg;
 import smalltalk.compiler.symbols.STBlock;
 import smalltalk.compiler.symbols.STClass;
@@ -33,12 +34,10 @@ public class Compiler {
 
 	public Compiler() {
 		symtab = new STSymbolTable();
-		//fileName = "unknown";
 	}
 
 	public Compiler(STSymbolTable symtab) {
 		this.symtab = symtab;
-		//fileName = "<string>";
 	}
 
 	public STSymbolTable compile(String fileName, String input) {
@@ -46,6 +45,8 @@ public class Compiler {
 		ParserRuleContext tree = parseClasses(new ANTLRInputStream(input));
 		defSymbols(tree);
 		resolveSymbols(tree);
+		CodeGenerator codeGenerator = new CodeGenerator(this);
+		codeGenerator.visit(tree);
 
 
 		return symtab;
@@ -132,6 +133,11 @@ public class Compiler {
 
 	public static Code push_nil() 				{ return Code.of(Bytecode.NIL); }
 	public static Code push_self()				{ return Code.of(Bytecode.SELF); }
+	public static Code push_local(int s, int i)	{ return Code.of(Bytecode.PUSH_LOCAL).join(Utils.toLiteral(s).join(Utils.toLiteral(i))); }
+
+	public static Code store_local(int s, int i){ return Code.of(Bytecode.STORE_LOCAL).join(Utils.shortToBytes(s).join(Utils.shortToBytes(i))); }
+	public static Code pop()					{ return Code.of(Bytecode.POP); }
+
 	public static Code method_return()          { return Code.of(Bytecode.RETURN); }
 
 	public static Code dbg(int filenameLitIndex, int line, int charPos) {

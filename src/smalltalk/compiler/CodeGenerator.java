@@ -7,10 +7,7 @@ import org.antlr.symtab.Utils;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.tree.TerminalNode;
-import smalltalk.compiler.symbols.STBlock;
-import smalltalk.compiler.symbols.STClass;
-import smalltalk.compiler.symbols.STCompiledBlock;
-import smalltalk.compiler.symbols.STPrimitiveMethod;
+import smalltalk.compiler.symbols.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,6 +57,31 @@ public class CodeGenerator extends SmalltalkBaseVisitor<Code> {
 	}
 
 	@Override
+	public Code visitMain(SmalltalkParser.MainContext ctx) {
+
+		pushScope(ctx.classScope);
+		pushScope(ctx.scope);
+		Code code = visitChildren(ctx);
+
+		code = code.join(Compiler.pop()); // final value
+
+		//always add ^self
+		code = code.join(Compiler.push_self());
+		code = code.join(Compiler.method_return());
+
+		Scope scope = ctx.scope;
+		if (ctx.scope instanceof STPrimitiveMethod) {
+			ctx.scope.compiledBlock = getCompiledPrimitive((STPrimitiveMethod) ctx.scope);
+		}
+		/////////////////////////////////////////////
+
+		popScope();
+		popScope();
+
+		return code;
+	}
+
+	@Override
 	public Code visitClassDef(SmalltalkParser.ClassDefContext ctx) {
 		currentClassScope = ctx.scope;
 		pushScope(ctx.scope);
@@ -84,8 +106,48 @@ public class CodeGenerator extends SmalltalkBaseVisitor<Code> {
 	 */
 	@Override
 	public Code visitFullBody(SmalltalkParser.FullBodyContext ctx) {
-		// fill in
-		return null;
+		Code code = new Code();
+
+		List<SmalltalkParser.StatContext> stats = ctx.stat();
+		for (SmalltalkParser.StatContext stat: stats) {
+			code =code.join(visit(stat));
+		}
+		return code;
+	}
+
+	@Override
+	public Code visitAssign(SmalltalkParser.AssignContext ctx) {
+		Code rigthside = visit(ctx.messageExpression());
+		Code leftside = store(ctx.lvalue().ID().getText());
+		Code code = rigthside.join(leftside);
+
+		return code;
+	}
+
+	@Override
+	public Code visitPassThrough(SmalltalkParser.PassThroughContext ctx) {
+		Code code = visit(ctx.recv);
+		Code args = new Code();
+
+		aggregateResult(code, args);
+
+		return code;
+	}
+
+	@Override
+	public Code visitBinaryExpression(SmalltalkParser.BinaryExpressionContext ctx) {
+
+		Code code = visit(ctx.unaryExpression(0));
+
+		return code;
+	}
+
+	@Override
+	public Code visitId(SmalltalkParser.IdContext ctx) {
+		Code code = new Code();
+		code.join(push(ctx.getText()));
+
+		return code;
 	}
 
 	@Override
@@ -136,11 +198,26 @@ public class CodeGenerator extends SmalltalkBaseVisitor<Code> {
 	}
 
 	public Code store(String id) {
-		return null;
+		Code code = new Code();
+		Symbol symbol = currentScope.resolve(id);
+		if (symbol instanceof STVariable) {
+			int in = symbol.getInsertionOrderNumber();
+			int sc = ((STBlock)currentScope).getRelativeScopeCount(symbol.getScope().getName());
+			code.join(Compiler.store_local(sc, in));
+		}
+
+		return code;
 	}
 
 	public Code push(String id) {
-		return null;
+		Code code = new Code();
+		Symbol symbol = currentScope.resolve(id);
+
+		int in = symbol.getInsertionOrderNumber();
+		int sc = ((STBlock) currentScope).getRelativeScopeCount(symbol.getScope().getName());
+		code.join(Compiler.push_local(sc, in));
+
+		return code;
 	}
 
 	public Code sendKeywordMsg(ParserRuleContext receiver,
