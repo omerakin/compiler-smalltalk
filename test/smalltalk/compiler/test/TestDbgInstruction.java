@@ -1,5 +1,6 @@
 package smalltalk.compiler.test;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -20,6 +21,7 @@ public class TestDbgInstruction extends BaseTest {
 		this.expecting = expecting;
 	}
 
+	@Ignore
 	@Test
 	public void testCode() throws Exception {
 		boolean genDbg = true;

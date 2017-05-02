@@ -133,10 +133,12 @@ public class Compiler {
 
 	public static Code push_nil() 				{ return Code.of(Bytecode.NIL); }
 	public static Code push_self()				{ return Code.of(Bytecode.SELF); }
+	public static Code push_field(int v)		{ return Code.of(Bytecode.PUSH_FIELD).join(Utils.toLiteral(v)); }
 	public static Code push_local(int s, int i)	{ return Code.of(Bytecode.PUSH_LOCAL).join(Utils.toLiteral(s).join(Utils.toLiteral(i))); }
 
 	public static Code store_local(int s, int i){ return Code.of(Bytecode.STORE_LOCAL).join(Utils.shortToBytes(s).join(Utils.shortToBytes(i))); }
 	public static Code pop()					{ return Code.of(Bytecode.POP); }
+	public static Code send(int size, int i)	{ return Code.of(Bytecode.SEND).join(Utils.toLiteral(size).join(Utils.toLiteral(i))); }
 
 	public static Code method_return()          { return Code.of(Bytecode.RETURN); }
 

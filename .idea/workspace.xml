@@ -2,65 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdcce1d8-f398-4e0e-8b69-ce50ce8481d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java" afterPath="$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smalltalk/compiler/Compiler.java" afterPath="$PROJECT_DIR$/src/smalltalk/compiler/Compiler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/2Blocks.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/2Blocks.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/2Blocks.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/2Blocks.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/AssignToField.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/AssignToField.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/AssignToField.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/AssignToField.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/AssignToLocalInMain.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/AssignToLocalInMain.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/AssignToLocalInMain.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/AssignToLocalInMain.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/Block.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/Block.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/Block.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/Block.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitive.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitive.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitive.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitive.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitiveOperator.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitiveOperator.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitiveOperator.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/DefinePrimitiveOperator.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/EmptyClass.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/EmptyClass.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/EmptyClass.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/EmptyClass.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/EmptyMethod.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/EmptyMethod.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/EmptyMethod.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/EmptyMethod.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/HelloWorld.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/HelloWorld.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/HelloWorld.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/HelloWorld.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/InheritFieldAndHaveField.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/InheritFieldAndHaveField.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/InheritFieldAndHaveField.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/InheritFieldAndHaveField.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/Methods.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/Methods.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/Methods.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/Methods.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/Operator.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/Operator.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/Operator.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/Operator.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenExpressions.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenExpressions.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenExpressions.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenExpressions.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenSends.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenSends.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenSends.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/PopBetweenSends.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/String.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/String.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/TestField.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/TestField.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/TestField.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/TestField.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/ToDoLoop.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/ToDoLoop.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/ToDoLoop.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/ToDoLoop.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/link.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/link.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/link.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/link.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/linkedlist.st" afterPath="$PROJECT_DIR$/target/classes/CodeGen/linkedlist.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeGen/linkedlist.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/CodeGen/linkedlist.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/CondBlockWithOperator.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/CondBlockWithOperator.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/CondBlockWithOperator.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/CondBlockWithOperator.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/LotsBlocks.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/LotsBlocks.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/LotsBlocks.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/LotsBlocks.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/ReturnWithDbgInstruction.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/ReturnWithDbgInstruction.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/ReturnWithDbgInstruction.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/ReturnWithDbgInstruction.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestExprDbgInstructions.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestExprDbgInstructions.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestExprDbgInstructions.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestExprDbgInstructions.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgInstructions.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgInstructions.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgInstructions.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgInstructions.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithMultiArgs.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithMultiArgs.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithMultiArgs.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithMultiArgs.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithNestedSends.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithNestedSends.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithNestedSends.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/TestSendDbgWithNestedSends.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/link.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/link.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/link.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/link.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/linkedlist.st" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/linkedlist.st" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DbgInstruction/linkedlist.st-teststring.txt" afterPath="$PROJECT_DIR$/target/classes/DbgInstruction/linkedlist.st-teststring.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java" afterPath="$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/smalltalk/compiler/symbols/STBlock.java" afterPath="$PROJECT_DIR$/src/smalltalk/compiler/symbols/STBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/smalltalk/compiler/test/TestDbgInstruction.java" afterPath="$PROJECT_DIR$/test/smalltalk/compiler/test/TestDbgInstruction.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,54 +22,96 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefineSymbols.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/DefineSymbols.java">
+      <file leaf-file-name="CodeGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="176" column="42" lean-forward="false" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="42" />
+            <state relative-caret-position="130">
+              <caret line="169" column="75" lean-forward="true" selection-start-line="169" selection-start-column="75" selection-end-line="169" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bytecode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Bytecode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1344">
+              <caret line="172" column="71" lean-forward="true" selection-start-line="172" selection-start-column="71" selection-end-line="172" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSymbolDefs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestSymbolDefs.java">
+      <file leaf-file-name="TestCodeGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestCodeGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Compiler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Compiler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Compiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+            <state relative-caret-position="-945">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmalltalkParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/smalltalk/compiler/SmalltalkParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractParseTreeVisitor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#3813#3814#0" expanded="true" />
-                <element signature="e#3870#3871#0" expanded="true" />
-                <element signature="e#3935#3936#0" expanded="true" />
-                <element signature="e#3990#3991#0" expanded="true" />
-                <element signature="e#4052#4053#0" expanded="true" />
-                <element signature="e#4112#4113#0" expanded="true" />
-                <element signature="e#4444#4445#0" expanded="true" />
-                <element signature="e#4462#4463#0" expanded="true" />
-                <element signature="e#4494#4495#0" expanded="true" />
-                <element signature="e#4516#4517#0" expanded="true" />
-                <element signature="e#4561#4562#0" expanded="true" />
-                <element signature="e#4592#4593#0" expanded="true" />
-                <element signature="e#4645#4646#0" expanded="true" />
-                <element signature="e#4667#4668#0" expanded="true" />
-                <element signature="e#4714#4715#0" expanded="true" />
-                <element signature="e#4777#4778#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerminalNodeImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding>
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bytecode</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,7 +125,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java" />
+        <option value="$PROJECT_DIR$/test/smalltalk/compiler/test/TestDbgInstruction.java" />
+        <option value="$PROJECT_DIR$/src/smalltalk/compiler/symbols/STCompiledBlock.java" />
+        <option value="$PROJECT_DIR$/src/smalltalk/compiler/symbols/STBlock.java" />
         <option value="$PROJECT_DIR$/src/smalltalk/compiler/Compiler.java" />
+        <option value="$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java" />
       </list>
     </option>
   </component>
@@ -263,6 +255,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smalltalk-compiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smalltalk-compiler-omerakinusf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grammars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smalltalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -272,13 +286,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.TestSymbolDefs">
-    <configuration default="false" name="TestSymbolDefs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestCodeGen (5)">
+    <configuration default="false" name="TestCodeGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="smalltalk.compiler.test.*" />
@@ -289,7 +303,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="smalltalk.compiler.test" />
-      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestSymbolDefs" />
+      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestCodeGen" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -304,7 +318,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestSymbolProblems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestCodeGen (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="smalltalk.compiler.test.*" />
@@ -315,11 +329,11 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="smalltalk.compiler.test" />
-      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestSymbolProblems" />
+      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestCodeGen" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="[2Blocks.st]" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -330,7 +344,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestSymbolDefs.test2ClassesWithSameMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestCodeGen (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="smalltalk.compiler.test.*" />
@@ -341,58 +355,63 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="smalltalk.compiler.test" />
-      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestSymbolDefs" />
-      <option name="METHOD_NAME" value="test2ClassesWithSameMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestSymbolDefs.testArgNestedVarRedefIn2Blocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="smalltalk.compiler.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="smalltalk-compiler" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="smalltalk.compiler.test" />
-      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestSymbolDefs" />
-      <option name="METHOD_NAME" value="testArgNestedVarRedefIn2Blocks" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in smalltalk-compiler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="smalltalk-compiler" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestCodeGen" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="[EmptyClass.st]" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestCodeGen (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="smalltalk.compiler.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="smalltalk-compiler" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="smalltalk.compiler.test" />
+      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestCodeGen" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="[EmptyMethod.st]" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestCodeGen (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="smalltalk.compiler.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="smalltalk-compiler" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="smalltalk.compiler.test" />
+      <option name="MAIN_CLASS_NAME" value="smalltalk.compiler.test.TestCodeGen" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="[InheritFieldAndHaveField.st]" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -630,19 +649,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSymbolProblems" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs.test2ClassesWithSameMethod" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs.testArgNestedVarRedefIn2Blocks" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in smalltalk-compiler" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestCodeGen" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCodeGen (2)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCodeGen (3)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCodeGen (4)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCodeGen (5)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in smalltalk-compiler" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs.testArgNestedVarRedefIn2Blocks" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSymbolDefs.test2ClassesWithSameMethod" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSymbolProblems" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestCodeGen (5)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCodeGen" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCodeGen (4)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCodeGen (2)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCodeGen (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -657,43 +676,51 @@
       <option name="presentableId" value="Default" />
       <updated>1493421882314</updated>
     </task>
+    <task id="LOCAL-00001" summary="v2 -&gt; Processing...">
+      <created>1493607832995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493607832995</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_smalltalk-compiler - 2017.04.30 at 14h 26m 11s.xml">
-      <configuration name="All in smalltalk-compiler" configurationId="JUnit" />
+    <history-entry file="TestCodeGen - 2017.05.02 at 15h 30m 15s.xml">
+      <configuration name="TestCodeGen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_smalltalk-compiler - 2017.04.30 at 14h 28m 21s.xml">
-      <configuration name="All in smalltalk-compiler" configurationId="JUnit" />
+    <history-entry file="TestCodeGen - 2017.05.02 at 15h 43m 51s.xml">
+      <configuration name="TestCodeGen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_smalltalk-compiler - 2017.04.30 at 14h 29m 00s.xml">
-      <configuration name="All in smalltalk-compiler" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 14h 42m 31s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_smalltalk-compiler - 2017.04.30 at 14h 32m 25s.xml">
-      <configuration name="All in smalltalk-compiler" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 14h 42m 59s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSymbolDefs - 2017.04.30 at 14h 14m 57s.xml">
-      <configuration name="TestSymbolDefs" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 15h 14m 10s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSymbolDefs - 2017.04.30 at 14h 20m 13s.xml">
-      <configuration name="TestSymbolDefs" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 15h 21m 39s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSymbolDefs - 2017.04.30 at 14h 31m 53s.xml">
-      <configuration name="TestSymbolDefs" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 15h 29m 07s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSymbolDefs - 2017.04.30 at 14h 32m 31s.xml">
-      <configuration name="TestSymbolDefs" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 15h 29m 16s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSymbolDefs_test2ClassesWithSameMethod - 2017.04.30 at 14h 14m 45s.xml">
-      <configuration name="TestSymbolDefs.test2ClassesWithSameMethod" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 15h 30m 21s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSymbolDefs_testArgNestedVarRedefIn2Blocks - 2017.04.30 at 14h 18m 01s.xml">
-      <configuration name="TestSymbolDefs.testArgNestedVarRedefIn2Blocks" configurationId="JUnit" />
+    <history-entry file="TestCodeGen_(5) - 2017.05.02 at 15h 51m 00s.xml">
+      <configuration name="TestCodeGen (5)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -703,7 +730,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -714,7 +741,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -730,6 +757,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2 -&gt; Processing..." />
+    <option name="LAST_COMMIT_MESSAGE" value="v2 -&gt; Processing..." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -740,13 +771,103 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/DefineSymbols.java</url>
-          <line>119</line>
+          <url>file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestCodeGen.java</url>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>249</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -755,99 +876,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STPrimitiveMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Bytecode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestSymbolProblems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/DefineSymbols.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/smalltalk/compiler/SmalltalkParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8250">
-          <caret line="616" column="0" lean-forward="false" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Compiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#3813#3814#0" expanded="true" />
-            <element signature="e#3870#3871#0" expanded="true" />
-            <element signature="e#3935#3936#0" expanded="true" />
-            <element signature="e#3990#3991#0" expanded="true" />
-            <element signature="e#4052#4053#0" expanded="true" />
-            <element signature="e#4112#4113#0" expanded="true" />
-            <element signature="e#4444#4445#0" expanded="true" />
-            <element signature="e#4462#4463#0" expanded="true" />
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4516#4517#0" expanded="true" />
-            <element signature="e#4561#4562#0" expanded="true" />
-            <element signature="e#4592#4593#0" expanded="true" />
-            <element signature="e#4645#4646#0" expanded="true" />
-            <element signature="e#4667#4668#0" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#4777#4778#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/SetScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestIDLookup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Code.java">
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STSymbolTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -855,48 +892,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Bytecode.java">
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STVariable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestSymbolProblems.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/ST4/4.0.8/ST4-4.0.8.jar!/org/stringtemplate/v4/misc/ErrorBuffer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-          <folding>
-            <element signature="e#11040#11204#0" expanded="false" />
-            <element signature="e#11203#11204#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding>
-            <element signature="e#4455#4456#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,31 +916,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestCodeGen.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="177">
+          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/STC.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestDbgInstruction.java">
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="284">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/CodeGen/TestField.st">
+    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/exec/TestBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestSymbolDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/ST4/4.0.8/ST4-4.0.8.jar!/org/stringtemplate/v4/compiler/FormalArgument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/ST4/4.0.8/ST4-4.0.8.jar!/org/stringtemplate/v4/compiler/CompiledST.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/ST4/4.0.8/ST4-4.0.8.jar!/org/stringtemplate/v4/ST.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/symtab/1.0.8/symtab-1.0.8.jar!/org/antlr/symtab/BaseScope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/symtab/1.0.8/symtab-1.0.8.jar!/org/antlr/symtab/DataAggregateSymbol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#1332#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/symtab/1.0.8/symtab-1.0.8.jar!/org/antlr/symtab/ClassSymbol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/AssignToLocalInMain.st">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/Block.st">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -940,167 +1024,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/symtab/1.0.8/symtab-1.0.8.jar!/org/antlr/symtab/GlobalScope.class">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/DefinePrimitive.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STSymbolTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#164#165#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/BufferedTokenStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/CommonTokenStream.class">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/DefinePrimitiveOperator.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/ResolveSymbols.java">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/link.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/CompilerWithHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/Recognizer.class">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/HelloWorld.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/RuntimeMetaData.class">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/TestField.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/atn/PredictionContextCache.class">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/AssignToField.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/VocabularyImpl.class">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/EmptyClass.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/smalltalk/compiler/SmalltalkLexer.java">
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/EmptyMethod.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/DefineSymbols.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#1250#1251#0" expanded="false" />
-            <element signature="e#1295#1296#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/RuleContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#1285#1286#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="214">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/smalltalk/compiler/SmalltalkBaseListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="419" column="65" lean-forward="false" selection-start-line="419" selection-start-column="65" selection-end-line="419" selection-end-column="65" />
+          <caret line="214" column="74" lean-forward="false" selection-start-line="214" selection-start-column="74" selection-end-line="214" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/symtab/1.0.8/symtab-1.0.8.jar!/org/antlr/symtab/SymbolWithScope.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#6597#6598#0" expanded="true" />
-            <element signature="e#6664#6665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/smalltalk/compiler/SmalltalkParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-          <folding>
-            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1110,58 +1127,6 @@
         <state relative-caret-position="390">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/CommonToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2380#2381#0" expanded="true" />
-            <element signature="e#4001#4002#0" expanded="true" />
-            <element signature="e#4049#4050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/symtab/1.0.8/symtab-1.0.8.jar!/org/antlr/symtab/SymbolWithScope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/symtab/1.0.8/symtab-1.0.8.jar!/org/antlr/symtab/BaseScope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,67 +1141,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/CommonToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="e#4001#4002#0" expanded="true" />
+            <element signature="e#4049#4050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/InheritFieldAndHaveField.st">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammars/smalltalk/compiler/Smalltalk.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/samples/CodeGen/2Blocks.st">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/misc/ByteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/smalltalk/compiler/SmalltalkBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="58" column="81" lean-forward="false" selection-start-line="58" selection-start-column="81" selection-end-line="58" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/antlr4/smalltalk/compiler/SmalltalkParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestCodeGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STCompiledBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="174">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STBlock.java">
+    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="174">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/symbols/STMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Bytecode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/DefineSymbols.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="176" column="42" lean-forward="false" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/smalltalk/compiler/test/TestSymbolDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        <state relative-caret-position="1344">
+          <caret line="172" column="71" lean-forward="true" selection-start-line="172" selection-start-column="71" selection-end-line="172" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/Compiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        <state relative-caret-position="-945">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smalltalk/compiler/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="169" column="75" lean-forward="true" selection-start-line="169" selection-start-column="75" selection-end-line="169" selection-end-column="75" />
           <folding>
-            <element signature="e#3813#3814#0" expanded="true" />
-            <element signature="e#3870#3871#0" expanded="true" />
-            <element signature="e#3935#3936#0" expanded="true" />
-            <element signature="e#3990#3991#0" expanded="true" />
-            <element signature="e#4052#4053#0" expanded="true" />
-            <element signature="e#4112#4113#0" expanded="true" />
-            <element signature="e#4444#4445#0" expanded="true" />
-            <element signature="e#4462#4463#0" expanded="true" />
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4516#4517#0" expanded="true" />
-            <element signature="e#4561#4562#0" expanded="true" />
-            <element signature="e#4592#4593#0" expanded="true" />
-            <element signature="e#4645#4646#0" expanded="true" />
-            <element signature="e#4667#4668#0" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#4777#4778#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
           </folding>
         </state>
       </provider>
