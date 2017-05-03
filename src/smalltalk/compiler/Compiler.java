@@ -133,9 +133,17 @@ public class Compiler {
 
 	public static Code push_nil() 				{ return Code.of(Bytecode.NIL); }
 	public static Code push_self()				{ return Code.of(Bytecode.SELF); }
+	public static Code push_true()				{ return Code.of(Bytecode.TRUE); }
+	public static Code push_false()				{ return Code.of(Bytecode.FALSE); }
+	public static Code push_char(char c)		{ return Code.of(Bytecode.PUSH_CHAR).join(Utils.shortToBytes(c)); }
+	public static Code push_int(int v)			{ return Code.of(Bytecode.PUSH_INT).join(Utils.intToBytes(v)); }
+	public static Code push_float(float v)		{ return Code.of(Bytecode.PUSH_FLOAT).join(Utils.floatToBytes(v)); }
 	public static Code push_field(int v)		{ return Code.of(Bytecode.PUSH_FIELD).join(Utils.toLiteral(v)); }
 	public static Code push_local(int s, int i)	{ return Code.of(Bytecode.PUSH_LOCAL).join(Utils.toLiteral(s).join(Utils.toLiteral(i))); }
+	public static Code push_literal(int v)		{ return Code.of(Bytecode.PUSH_LITERAL).join(Utils.toLiteral(v)); }
+	public static Code push_global(int v)		{ return Code.of(Bytecode.PUSH_GLOBAL).join(Utils.toLiteral(v)); }
 
+	public static Code store_field(int v)		{ return Code.of(Bytecode.STORE_FIELD).join(Utils.shortToBytes(v)); }
 	public static Code store_local(int s, int i){ return Code.of(Bytecode.STORE_LOCAL).join(Utils.shortToBytes(s).join(Utils.shortToBytes(i))); }
 	public static Code pop()					{ return Code.of(Bytecode.POP); }
 	public static Code send(int size, int i)	{ return Code.of(Bytecode.SEND).join(Utils.toLiteral(size).join(Utils.toLiteral(i))); }
