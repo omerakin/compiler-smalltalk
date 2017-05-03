@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/antlr4" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/maven-status" />
+      <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -23,14 +24,5 @@
     <orderEntry type="library" name="Maven: org.antlr:ST4:4.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: edu.usfca.cs652:smalltalk-vm:1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/smalltalk-vm-1.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
   </component>
 </module>
