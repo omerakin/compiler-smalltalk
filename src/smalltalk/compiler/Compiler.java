@@ -41,14 +41,11 @@ public class Compiler {
 	}
 
 	public STSymbolTable compile(String fileName, String input) {
-
 		ParserRuleContext tree = parseClasses(new ANTLRInputStream(input));
 		defSymbols(tree);
 		resolveSymbols(tree);
 		CodeGenerator codeGenerator = new CodeGenerator(this);
 		codeGenerator.visit(tree);
-
-
 		return symtab;
 	}
 
@@ -100,7 +97,7 @@ public class Compiler {
 //		System.out.println("	create primitive "+selector+" "+args+"->"+primitiveName);
 		// convert "<classname>_<methodname>" Primitive value
 		// warn if classname!=currentClass
-		return null;
+		return new STPrimitiveMethod(selector, tree, primitiveName);
 	}
 
 	public void defineVariables(Scope scope, List<String> names, Function<String,? extends VariableSymbol> getter) {
@@ -142,12 +139,13 @@ public class Compiler {
 	public static Code push_local(int s, int i)	{ return Code.of(Bytecode.PUSH_LOCAL).join(Utils.toLiteral(s).join(Utils.toLiteral(i))); }
 	public static Code push_literal(int v)		{ return Code.of(Bytecode.PUSH_LITERAL).join(Utils.toLiteral(v)); }
 	public static Code push_global(int v)		{ return Code.of(Bytecode.PUSH_GLOBAL).join(Utils.toLiteral(v)); }
-
 	public static Code store_field(int v)		{ return Code.of(Bytecode.STORE_FIELD).join(Utils.shortToBytes(v)); }
 	public static Code store_local(int s, int i){ return Code.of(Bytecode.STORE_LOCAL).join(Utils.shortToBytes(s).join(Utils.shortToBytes(i))); }
 	public static Code pop()					{ return Code.of(Bytecode.POP); }
 	public static Code send(int size, int i)	{ return Code.of(Bytecode.SEND).join(Utils.toLiteral(size).join(Utils.toLiteral(i))); }
-
+	public static Code send_super(int s, int i) { return Code.of(Bytecode.SEND_SUPER).join(Utils.toLiteral(s).join(Utils.toLiteral(i))); }
+	public static Code block(short v)			{ return Code.of(Bytecode.BLOCK).join(Utils.shortToBytes(v)); }
+	public static Code block_return()			{ return Code.of(Bytecode.BLOCK_RETURN); }
 	public static Code method_return()          { return Code.of(Bytecode.RETURN); }
 
 	public static Code dbg(int filenameLitIndex, int line, int charPos) {

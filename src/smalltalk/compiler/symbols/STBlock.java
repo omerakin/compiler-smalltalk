@@ -68,8 +68,7 @@ public class STBlock extends MethodSymbol {
 	 *  has  indexes x@0, y@1, a@x.
 	 */
 	public int getLocalIndex(String name) {
-		// fill in
-		return 0;
+		return this.resolve(name).getInsertionOrderNumber();
 	}
 
 	/** Look for name in current block; keep looking upwards in
@@ -77,7 +76,16 @@ public class STBlock extends MethodSymbol {
 	 *  jump to find name. 0 indicates same scope.
 	 */
 	public int getRelativeScopeCount(String name) {
-		// fill in
-		return 0;
+		int scopeNum = 0;
+		Scope scope = this;
+		while (!scope.getName().equals(name)){
+			scope = scope.getEnclosingScope();
+			if (scope != null){
+				scopeNum++;
+			}else{
+				return -1;
+			}
+		}
+		return scopeNum;
 	}
 }

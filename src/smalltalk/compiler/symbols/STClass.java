@@ -23,7 +23,7 @@ public class STClass extends ClassSymbol {
 	 *  unique set of strings (which might have strings in common with another
 	 *  class's string table).
 	 */
-	public final StringTable stringTable = new StringTable();
+	public StringTable stringTable = new StringTable();
 
 	public STClass(String name, String superClassName) {
 		super(name);
