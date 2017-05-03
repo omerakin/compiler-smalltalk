@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdcce1d8-f398-4e0e-8b69-ce50ce8481d9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/smalltalk/compiler/test/exec/TestArrays.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/smalltalk/compiler/test/exec/TestBlocks.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/smalltalk/compiler/test/exec/TestClasses.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/smalltalk/compiler/test/exec/TestCore.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smalltalk-compiler.iml" afterPath="$PROJECT_DIR$/smalltalk-compiler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java" afterPath="$PROJECT_DIR$/test/smalltalk/compiler/test/BaseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -283,6 +276,116 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.travis.yml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JUnit.smalltalk.compiler.test in smalltalk-compiler">
     <configuration default="false" name="TestCodeGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -697,13 +800,17 @@
       <option name="project" value="LOCAL" />
       <updated>1493853609565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v6 -&gt; Processing...">
+      <created>1493854525630</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1493854525630</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCodeGen - 2017.05.03 at 16h 18m 14s.xml">
-      <configuration name="TestCodeGen" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCodeGen - 2017.05.03 at 16h 18m 48s.xml">
       <configuration name="TestCodeGen" configurationId="JUnit" />
     </history-entry>
@@ -712,9 +819,6 @@
     </history-entry>
     <history-entry file="TestDbgInstruction - 2017.05.03 at 16h 21m 53s.xml">
       <configuration name="TestDbgInstruction" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSymbolProblems - 2017.05.03 at 16h 17m 45s.xml">
-      <configuration name="TestSymbolProblems" configurationId="JUnit" />
     </history-entry>
     <history-entry file="smalltalk_compiler_test_in_smalltalk-compiler - 2017.05.03 at 16h 20m 42s.xml">
       <configuration name="smalltalk.compiler.test in smalltalk-compiler" configurationId="JUnit" />
@@ -729,6 +833,12 @@
       <configuration name="smalltalk.compiler.test in smalltalk-compiler" configurationId="JUnit" />
     </history-entry>
     <history-entry file="smalltalk_compiler_test_in_smalltalk-compiler - 2017.05.03 at 16h 33m 27s.xml">
+      <configuration name="smalltalk.compiler.test in smalltalk-compiler" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="smalltalk_compiler_test_in_smalltalk-compiler - 2017.05.03 at 16h 37m 36s.xml">
+      <configuration name="smalltalk.compiler.test in smalltalk-compiler" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="smalltalk_compiler_test_in_smalltalk-compiler - 2017.05.03 at 16h 37m 51s.xml">
       <configuration name="smalltalk.compiler.test in smalltalk-compiler" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -763,7 +873,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30267754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -785,7 +895,8 @@
     <MESSAGE value="v3 -&gt; Processing..." />
     <MESSAGE value="v4 -&gt; Processing..." />
     <MESSAGE value="v5 -&gt; Processing..." />
-    <option name="LAST_COMMIT_MESSAGE" value="v5 -&gt; Processing..." />
+    <MESSAGE value="v6 -&gt; Processing..." />
+    <option name="LAST_COMMIT_MESSAGE" value="v6 -&gt; Processing..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
