@@ -82,8 +82,6 @@ public class STBlock extends MethodSymbol {
 			scope = scope.getEnclosingScope();
 			if (scope != null){
 				scopeNum++;
-			}else{
-				return -1;
 			}
 		}
 		return scopeNum;
